@@ -1,0 +1,163 @@
+<level>
+  <entity name="DialogOption">
+    <FlxText uid="3">
+      <text>Lorem Ipsum</text>
+      <textSize>10</textSize>
+      <alignment>center</alignment>
+      <color>4294967295</color>
+      <color_alpha>255</color_alpha>
+      <x>66.05148</x>
+      <y>527.8105</y>
+      <width>672.8585</width>
+      <height>45.52698</height>
+      <depth>2</depth>
+    </FlxText>
+    <DialogOption uid="2">
+      <offset>4</offset>
+      <trigger>up</trigger>
+    </DialogOption>
+    <Button uid="1">
+      <overMessage>over</overMessage>
+      <outMessage>out</outMessage>
+      <downMessage>down</downMessage>
+      <upMessage>up</upMessage>
+    </Button>
+  </entity>
+  <entity name="DialogOption">
+    <FlxText uid="4">
+      <text>Lorem Ipsum</text>
+      <textSize>10</textSize>
+      <alignment>center</alignment>
+      <color>4294967295</color>
+      <color_alpha>255</color_alpha>
+      <x>66.05148</x>
+      <y>474.9561</y>
+      <width>672.8585</width>
+      <height>45.52698</height>
+      <depth>2</depth>
+    </FlxText>
+    <DialogOption uid="5">
+      <offset>3</offset>
+      <trigger>up</trigger>
+    </DialogOption>
+    <Button uid="6">
+      <overMessage>over</overMessage>
+      <outMessage>out</outMessage>
+      <downMessage>down</downMessage>
+      <upMessage>up</upMessage>
+    </Button>
+  </entity>
+  <entity name="DialogOption">
+    <FlxText uid="9">
+      <text>Lorem Ipsum</text>
+      <textSize>10</textSize>
+      <alignment>center</alignment>
+      <color>4294967295</color>
+      <color_alpha>255</color_alpha>
+      <x>66.05148</x>
+      <y>420.9527</y>
+      <width>672.8585</width>
+      <height>45.52698</height>
+      <depth>2</depth>
+    </FlxText>
+    <DialogOption uid="8">
+      <offset>2</offset>
+      <trigger>up</trigger>
+    </DialogOption>
+    <Button uid="7">
+      <overMessage>over</overMessage>
+      <outMessage>out</outMessage>
+      <downMessage>down</downMessage>
+      <upMessage>up</upMessage>
+    </Button>
+  </entity>
+  <entity name="DialogOption">
+    <FlxText uid="10">
+      <text>Lorem Ipsum</text>
+      <textSize>10</textSize>
+      <alignment>center</alignment>
+      <color>4294967295</color>
+      <color_alpha>255</color_alpha>
+      <x>66.05148</x>
+      <y>366.9493</y>
+      <width>672.8585</width>
+      <height>45.52698</height>
+      <depth>2</depth>
+    </FlxText>
+    <DialogOption uid="11">
+      <offset>1</offset>
+      <trigger>up</trigger>
+    </DialogOption>
+    <Button uid="12">
+      <overMessage>over</overMessage>
+      <outMessage>out</outMessage>
+      <downMessage>down</downMessage>
+      <upMessage>up</upMessage>
+    </Button>
+  </entity>
+  <entity name="DialogOption">
+    <entity name="Text">
+      <FlxText uid="0">
+        <text>Lorem Ipsum</text>
+        <textSize>10</textSize>
+        <alignment>right</alignment>
+        <color>4294910498</color>
+        <color_alpha>255</color_alpha>
+        <x>592.9603</x>
+        <y>12.2161</y>
+        <width>195.3425</width>
+        <height>89.43077</height>
+        <depth>2</depth>
+      </FlxText>
+    </entity>
+    <FlxText uid="15">
+      <text>Lorem Ipsum</text>
+      <textSize>10</textSize>
+      <alignment>center</alignment>
+      <color>4294967295</color>
+      <color_alpha>255</color_alpha>
+      <x>66.05148</x>
+      <y>311.7979</y>
+      <width>672.8585</width>
+      <height>45.52698</height>
+      <depth>2</depth>
+    </FlxText>
+    <DialogOption uid="14">
+      <offset>0</offset>
+      <trigger>up</trigger>
+    </DialogOption>
+    <Button uid="13">
+      <overMessage>over</overMessage>
+      <outMessage>out</outMessage>
+      <downMessage>down</downMessage>
+      <upMessage>up</upMessage>
+    </Button>
+  </entity>
+  <entity name="DialogBox">
+    <FlxText uid="17">
+      <text>Lorem Ipsum</text>
+      <textSize>20</textSize>
+      <alignment>left</alignment>
+      <color>4294967295</color>
+      <color_alpha>255</color_alpha>
+      <x>66.05005</x>
+      <y>98.78558</y>
+      <width>672.8585</width>
+      <height>193.4957</height>
+      <depth>2</depth>
+    </FlxText>
+    <DialogBox uid="16" />
+  </entity>
+  <entity name="DialogManager">
+    <DialogManager uid="18">
+      <darlings>
+        <entry>17</entry>
+        <entry>3</entry>
+        <entry>4</entry>
+        <entry>9</entry>
+        <entry>10</entry>
+        <entry>15</entry>
+      </darlings>
+    </DialogManager>
+  </entity>
+</level>

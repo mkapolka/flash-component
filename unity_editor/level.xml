@@ -1,0 +1,171 @@
+<level>
+  <entity name="SnapPoint">
+    <SnapPoint uid="0" />
+    <FlxObject uid="1">
+      <x>617.163</x>
+      <y>306.1702</y>
+      <width>10</width>
+      <height>10</height>
+      <depth>0.5</depth>
+    </FlxObject>
+  </entity>
+  <entity name="SnapPoint">
+    <SnapPoint uid="5" />
+    <FlxObject uid="3">
+      <x>567.0107</x>
+      <y>306.1702</y>
+      <width>10</width>
+      <height>10</height>
+      <depth>0.5</depth>
+    </FlxObject>
+  </entity>
+  <entity name="SnapPonit">
+    <SnapPoint uid="6" />
+    <FlxObject uid="4">
+      <x>504.4921</x>
+      <y>305.4827</y>
+      <width>10</width>
+      <height>10</height>
+      <depth>-12.81055</depth>
+    </FlxObject>
+  </entity>
+  <entity name="Shelf 1">
+    <FlxSprite uid="7">
+      <spriteID>shelves_2</spriteID>
+      <x>89.22021</x>
+      <y>242.2339</y>
+      <depth>0.5</depth>
+    </FlxSprite>
+    <Region uid="8">
+      <id>shelves</id>
+    </Region>
+  </entity>
+  <entity name="Shelf 2">
+    <FlxSprite uid="10">
+      <spriteID>shelves_1</spriteID>
+      <x>447.6844</x>
+      <y>237.7339</y>
+      <depth>0.5</depth>
+    </FlxSprite>
+    <Region uid="9">
+      <id>shelves</id>
+    </Region>
+    <SnapTo uid="2">
+      <trigger>dropped</trigger>
+      <anchor>bottom</anchor>
+      <snapPoints>
+        <entry>0</entry>
+        <entry>5</entry>
+        <entry>6</entry>
+      </snapPoints>
+    </SnapTo>
+  </entity>
+  <entity name="Bottle">
+    <FlxSprite uid="13">
+      <spriteID>bottle_3</spriteID>
+      <x>557.4263</x>
+      <y>232.4924</y>
+      <depth>1</depth>
+    </FlxSprite>
+    <Holdable uid="12">
+      <dropRegions>shelves counter</dropRegions>
+      <hold_x>13.5</hold_x>
+      <hold_y>44.31503</hold_y>
+    </Holdable>
+    <Container uid="11">
+      <capacity>0</capacity>
+      <contents>
+      </contents>
+      <mouth_x>12.09802</mouth_x>
+      <mouth_y>0</mouth_y>
+    </Container>
+  </entity>
+  <entity name="Bottle">
+    <FlxSprite uid="16">
+      <spriteID>bottle_2</spriteID>
+      <x>492.3862</x>
+      <y>232.4793</y>
+      <depth>1</depth>
+    </FlxSprite>
+    <Holdable uid="15">
+      <dropRegions>shelves counter</dropRegions>
+      <hold_x>20</hold_x>
+      <hold_y>46.67853</hold_y>
+    </Holdable>
+    <Container uid="14">
+      <capacity>0</capacity>
+      <contents>
+      </contents>
+      <mouth_x>17.92303</mouth_x>
+      <mouth_y>0</mouth_y>
+    </Container>
+  </entity>
+  <entity name="Cursor">
+    <Cursor uid="22" />
+    <AnimatedFlxSprite uid="21">
+      <animations>
+        <entry>point 0</entry>
+        <entry>over 1</entry>
+        <entry>grab 2</entry>
+      </animations>
+      <spriteWidth>50</spriteWidth>
+      <spriteHeight>50</spriteHeight>
+      <reverseSprite>False</reverseSprite>
+      <unique>False</unique>
+      <frameRate>0</frameRate>
+      <loop>True</loop>
+      <spriteID>hand</spriteID>
+      <x>119.8582</x>
+      <y>42.00198</y>
+      <depth>10</depth>
+    </AnimatedFlxSprite>
+    <Hand uid="20" />
+    <AnimationMessageBridge uid="19">
+      <bridges>
+        <entry>out point</entry>
+        <entry>over over</entry>
+        <entry>grab grab</entry>
+      </bridges>
+    </AnimationMessageBridge>
+  </entity>
+  <entity name="FlxSprite">
+    <FlxSprite uid="23">
+      <spriteID>bar</spriteID>
+      <x>0</x>
+      <y>205.02</y>
+      <depth>0</depth>
+    </FlxSprite>
+  </entity>
+  <entity name="Counter">
+    <FlxObject uid="18">
+      <x>-1.452515</x>
+      <y>150.9506</y>
+      <width>801.1567</width>
+      <height>68.37396</height>
+      <depth>1</depth>
+    </FlxObject>
+    <Region uid="17">
+      <id>counter</id>
+    </Region>
+  </entity>
+  <entity name="BottleTest">
+    <FlxSprite uid="26">
+      <spriteID>bottle</spriteID>
+      <x>602.5594</x>
+      <y>228.5534</y>
+      <depth>1</depth>
+    </FlxSprite>
+    <Holdable uid="25">
+      <dropRegions>shelves counter</dropRegions>
+      <hold_x>19.5</hold_x>
+      <hold_y>46.08765</hold_y>
+    </Holdable>
+    <Container uid="24">
+      <capacity>0</capacity>
+      <contents>
+      </contents>
+      <mouth_x>17.47498</mouth_x>
+      <mouth_y>0</mouth_y>
+    </Container>
+  </entity>
+</level>
