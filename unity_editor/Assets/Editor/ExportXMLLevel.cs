@@ -76,15 +76,13 @@ public class ExportXMLLevel : MonoBehaviour {
 		outputDocument.AppendChild(rootElement);
 		
 		//Assign UIDs to components
-		//int uid = 0;
-		
 		Object[] outputComponents = Component.FindObjectsOfType(typeof(OutputComponent));
 		
 		for (int i = 0; i < outputComponents.Length; i++)
 		{
 			OutputComponent oc = (OutputComponent)outputComponents[i];
 			
-			oc.uid = Mathf.FloorToInt(Random.value * Mathf.Pow(2,31));//uid++;
+			oc.uid = Mathf.FloorToInt(Random.value * Mathf.Pow(2,31));
 		}
 		
 		Object[] objects = GameObject.FindObjectsOfType(typeof(GameObject));
